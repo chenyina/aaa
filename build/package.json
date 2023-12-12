@@ -1,0 +1,35 @@
+{
+  "name": "front-cookie",
+  "version": "1.0.7",
+  "description": "Science Mate SSR Cookies.",
+  "main": "build/module.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc --build tsconfig.json && cp ./package.json ./build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://gitlib.aumall.cn/science-mate/plugins/front-cookie.git"
+  },
+  "keywords": [
+    "Science Mate",
+    "plugin",
+    "ssr",
+    "server",
+    "client",
+    "cookie",
+    "cookies"
+  ],
+  "author": "tricker.pan@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@types/js-cookie": "^2.2.7",
+    "@types/node": "^16.4.3",
+    "typescript": "^4.3.5"
+  }
+}
